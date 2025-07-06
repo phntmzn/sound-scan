@@ -1,13 +1,8 @@
-
-
----
-
-```markdown
 # 🎧 SoundCloud Fingerprint
 
-A passive reconnaissance and fingerprinting tool designed to analyze the public-facing infrastructure of SoundCloud (or similar CDN/cloud-hosted services). It performs multithreaded port scanning, banner grabbing, HTTP fingerprinting, and includes basic CVE vulnerability probes.
+A passive reconnaissance and fingerprinting tool designed to analyze the public-facing infrastructure of SoundCloud and its CDN-backed services (e.g., CDN-backed services). It performs multithreaded port scanning, banner grabbing, HTTP fingerprinting, and includes basic CVE vulnerability probes.
 
-> ⚠️ **WARNING**: This tool is for **educational use only** on **authorized infrastructure**. Scanning third-party services without permission (including SoundCloud) may violate their Terms of Service and applicable laws.
+> ⚠️ **WARNING**: This tool is for **educational use only** on **authorized infrastructure**. Scanning third-party services without permission may violate Terms of Service and applicable laws.
 
 ---
 
@@ -99,7 +94,7 @@ Headers:
 
 ## 🧠 Research Purpose
 
-This tool helps analyze CDN-backed platforms like SoundCloud using only public signals (headers, ports, and service banners). Useful for:
+This tool helps analyze SoundCloud's CDN-backed platform using only public signals (headers, ports, and service banners). Useful for:
 
 - Bug bounty reconnaissance
 - Passive cloud exposure mapping
